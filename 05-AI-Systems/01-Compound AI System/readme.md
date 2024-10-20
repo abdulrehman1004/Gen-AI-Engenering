@@ -1,5 +1,11 @@
 # All About Compound AI System:
 
+- A **Compound AI System (CAS)** is an architecture that integrates various specialized components, which can be different types of AI models or other tools, to perform tasks. This combination allows the system to:
+  - Adapt to various tasks.
+  - Be more flexible and efficient.
+  - Improve performance by leveraging the unique strengths of each component.
+    For instance, in a **Retrieval-Augmented Generation (RAG)** system, an LLM (like GPT) is combined with a **retriever** (a component that fetches relevant data from external sources). Together, they handle tasks like answering complex queries more effectively than an LLM alone.
+
 ## Old Paradigm of AI:
 
 The **old paradigm of AI** was focused on **single model systems** with a model-centric approach. Here’s a concise breakdown:
@@ -66,14 +72,6 @@ The article begins by highlighting that traditional AI development has largely r
 
 - **Compound AI systems** represent a significant shift in the way we approach AI development. Instead of relying on a single, monolithic model, these systems combine multiple AI models, tools, and techniques to create more robust, flexible, and efficient solutions to complex problems.
 - Compound AI systems are an emerging trend in artificial intelligence that involve integrating multiple AI components to tackle complex tasks more effectively. Unlike traditional AI models that rely on a single model, compound AI systems combine various models, retrievers, databases, and external tools to enhance performance, flexibility, and robustness¹².
-
-                                                           **OR**
-
-- A **Compound AI System (CAS)** is an architecture that integrates various specialized components, which can be different types of AI models or other tools, to perform tasks. This combination allows the system to:
-  - Adapt to various tasks.
-  - Be more flexible and efficient.
-  - Improve performance by leveraging the unique strengths of each component.
-  For instance, in a **Retrieval-Augmented Generation (RAG)** system, an LLM (like GPT) is combined with a **retriever** (a component that fetches relevant data from external sources). Together, they handle tasks like answering complex queries more effectively than an LLM alone.
 
 ---
 
@@ -178,8 +176,6 @@ OpenAI Custom GPT can be considered both a platform and a building block for a c
 
 ---
 
-💡
-
 ## **RAG vs. LLM Fine-Tuning:**
 
 ### **RAG (Retrieval-Augmented Generation):**
@@ -232,8 +228,6 @@ LLM fine-tuning involves training a pre-trained language model on a specific dat
 Both approaches have their unique advantages and are suitable for different use cases. RAG is ideal for scenarios requiring real-time information, while fine-tuning is best for tasks needing specialized knowledge and high accuracy.
 
 ---
-
-💡
 
 ## Resources
 
