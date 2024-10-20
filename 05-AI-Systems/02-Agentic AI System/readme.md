@@ -3,15 +3,16 @@
 ## Introduction to AI Agents:
 
 **Agentic AI** refers to a type of artificial intelligence designed to act as an autonomous agent, capable of making decisions and performing tasks on its own, often in dynamic environments. These AI systems can plan, reason, adapt, and interact with the world to achieve specific goals, much like human agents who operate independently. They have a degree of autonomy, which means they can take actions based on their internal goals and perceptions of the environment, often with minimal human intervention.
-**OR** 
 
-- AI agents are tools that help users interact with large language models (LLMs) to make workflows more efficient.
-- They simplify complex models like GPT-4 and make it easier for people to use AI without needing deep technical knowledge.
-- Think of them as "wrappers" around AI models, making the technology accessible through a user-friendly interface.
+**OR**
+
+Agentic AI refers to **AI systems that act as “agents”**, meaning they can make decisions, perform tasks, and interact dynamically with the environment or users. These agents can act on behalf of users to accomplish specific goals without constant supervision.
+
+- **Key Point**: The "agentic" aspect means they can independently handle a range of tasks like document processing, providing answers, automating tasks, etc., by following a set of instructions or a “prompt.”
 
 ---
 
-## What Is Agentic AI?
+## What Is AI Agents?
 
 **AI Agents** are specific instances of Agentic AI that operate in a defined environment to accomplish tasks. They are designed to observe, interpret, and act upon their surroundings. Some key features include:
 
@@ -21,9 +22,9 @@
 
 **OR**
 
-Agentic AI refers to **AI systems that act as “agents”**, meaning they can make decisions, perform tasks, and interact dynamically with the environment or users. These agents can act on behalf of users to accomplish specific goals without constant supervision.
-
-- **Key Point**: The "agentic" aspect means they can independently handle a range of tasks like document processing, providing answers, automating tasks, etc., by following a set of instructions or a “prompt.”
+- AI agents are tools that help users interact with large language models (LLMs) to make workflows more efficient.
+- They simplify complex models like GPT-4 and make it easier for people to use AI without needing deep technical knowledge.
+- Think of them as "wrappers" around AI models, making the technology accessible through a user-friendly interface.
 
 ---
 
