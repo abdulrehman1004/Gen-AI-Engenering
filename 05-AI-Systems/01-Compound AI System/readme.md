@@ -231,10 +231,9 @@ Both approaches have their unique advantages and are suitable for different use 
 
 ## Resources
 
-[learn-applied-generative-ai-fundamentals/18_compound_ai_systerms at main · panaversity/learn-applied-generative-ai-fundamentals](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/tree/main/18_compound_ai_systerms#compound-ai-systems-a-new-frontier-in-ai)
-
-[A Silent Evolution in AI: The Rise of Compound AI Systems Beyond Traditional AI Models](https://www.unite.ai/a-silent-evolution-in-ai-the-rise-of-compound-ai-systems-beyond-traditional-ai-models/)
-
-["🤖 The Future of AI: Unleashing the Power of Compound Systems 🚀](https://www.youtube.com/watch?v=5QIpc6hKaKg)
-
-[The Shift from Large Language Models(LLMs) to Compound AI Systems](https://www.youtube.com/watch?v=IaMOZq1O7JI)
+| Name               | RAG                                                                                                                                                              |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Panaversity Github | [compound_ai_systerms](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/tree/main/00_generative_ai_for_beginners/03_compound_ai_systerms) |
+| Article            | [A Silent Evolution in AI](https://www.unite.ai/a-silent-evolution-in-ai-the-rise-of-compound-ai-systems-beyond-traditional-ai-models/)                          |
+| Youtube            | [The Future of AI](https://www.youtube.com/watch?v=5QIpc6hKaKg)                                                                                                  |
+| Youtub             | [The Shift from Large Language Models(LLMs) to Compound AI Systems](https://www.youtube.com/watch?v=IaMOZq1O7JI)                                                 |
