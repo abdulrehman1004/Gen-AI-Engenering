@@ -133,11 +133,11 @@ LangChain provides the foundation for creating rich, interactive, and dynamic ap
 
 ## **5. Memory:**
 
-[If you want to learn more about langChain memory with code example then click me.](<https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/3_chains%20(LCEL)>)
+[If you want to learn more about langChain memory with code example then click me.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/4_memory)
 
 ## **6. RAG (Retrieval-Augmented Generation):**
 
-[If you want to learn more about Retrieval-Augmented Generation with code example then click me.](<https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/3_chains%20(LCEL)>)
+[If you want to learn more about Retrieval-Augmented Generation with code example then click me.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/5_rag)
 
 ## **7. Agents & Tools:**
 
