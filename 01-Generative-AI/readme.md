@@ -12,7 +12,7 @@ For the most part, generative AI operates in three phases:
 
 - **Training**, to create a foundation model that can serve as the basis of multiple gen AI applications.
 - **Tuning**, to tailor the foundation model to a specific gen AI application.
-- **Generation**, **evaluation and retuning***,* to assess the gen AI application's output and continually improve its quality and accuracy.
+- **Generation**, **evaluation and retuning**, to assess the gen AI application's output and continually improve its quality and accuracy.
 
 ## **Training a Foundational Model:**
 
