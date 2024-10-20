@@ -141,6 +141,6 @@ LangChain provides the foundation for creating rich, interactive, and dynamic ap
 
 ## **7. Agents & Tools:**
 
-[If you want to learn more about Agents & Tools with code example then click me.](<https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/3_chains%20(LCEL)>)
+[If you want to learn more about Agents & Tools with code example then click me.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/6_agents_and_tools)
 
 [LangChain API Rederences](https://python.langchain.com/api_reference/core/runnables/langchain_core.runnables.base.RunnableSequence.html)
