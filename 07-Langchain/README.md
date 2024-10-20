@@ -31,19 +31,22 @@ LangChain consists of several key components that can be used independently or c
 
    - A "Chain" is a sequence of steps, each of which interacts with the LLM or some external data source. For example, you might first generate a prompt using a template, call the LLM, and then process the response. LangChain allows chaining together different modules in a pipeline to create complex workflows.
 
-4. **Agents**:
+4. **LangChain Expression Language (LCEL)**:
+   LCEL stands for LangChain Expression Language, a feature in LangChain that allows you to define and manipulate variables within chains and workflows. It provides a simple syntax for creating dynamic prompts and performing operations like variable assignment, conditional logic, or function calls directly within the chain.
+
+5. **Agents**:
 
    - Agents are dynamic entities that can make decisions based on user input and context, executing various actions using different tools or APIs. This allows LangChain to behave in a more flexible, intelligent way, such as deciding which external API to call based on the query.
 
-5. **Memory**:
+6. **Memory**:
 
    - Memory in LangChain enables stateful interactions, where the application can "remember" past interactions or conversations with a user. This is essential for building context-aware applications, like chatbots that need to maintain the conversation context over time.
 
-6. **Retrieval**:
+7. **Retrieval**:
 
    - Retrieval modules connect the language model with external data sources like databases, vector stores, or search engines. This allows the LLM to fetch relevant information based on the user's query rather than generating it purely from the model.
 
-7. **Toolkits**:
+8. **Toolkits**:
    - Toolkits in LangChain enable models to interact with external systems, databases, or APIs, providing a way to fetch real-time data, conduct transactions, or control external processes.
 
 ### Benefits and Importance of LangChain
