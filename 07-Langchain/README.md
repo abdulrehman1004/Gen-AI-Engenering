@@ -3,13 +3,12 @@
 ## **Learning Roadmap:**
 
 1. **Introduction to LangChain:**
-2. **Environment Setup:**
-3. **Chat Models:**
-4. **Prompt Template:**
-5. **Chains:**
-6. **Memory:**
-7. **RAG (Retrieval-Augmented Generation):**
-8. **Agents & Tools:**
+2. **Chat Models:**
+3. **Prompt Template:**
+4. **Chains:**
+5. **Memory:**
+6. **RAG (Retrieval-Augmented Generation):**
+7. **Agents & Tools:**
 
 ## **1. Introduction To LangChain:**
 
@@ -32,7 +31,8 @@ LangChain consists of several key components that can be used independently or c
    - A "Chain" is a sequence of steps, each of which interacts with the LLM or some external data source. For example, you might first generate a prompt using a template, call the LLM, and then process the response. LangChain allows chaining together different modules in a pipeline to create complex workflows.
 
 4. **LangChain Expression Language (LCEL)**:
-   LCEL stands for LangChain Expression Language, a feature in LangChain that allows you to define and manipulate variables within chains and workflows. It provides a simple syntax for creating dynamic prompts and performing operations like variable assignment, conditional logic, or function calls directly within the chain.
+
+   - LCEL stands for LangChain Expression Language, a feature in LangChain that allows you to define and manipulate variables within chains and workflows. It provides a simple syntax for creating dynamic prompts and performing operations like variable assignment, conditional logic, or function calls directly within the chain.
 
 5. **Agents**:
 
@@ -105,20 +105,23 @@ LangChain is versatile and can be applied across various domains. Some of the co
 
 LangChain provides the foundation for creating rich, interactive, and dynamic applications that combine the power of LLMs with real-world data, memory, and external integrations, enabling developers to build smarter applications efficiently.
 
-## **2. Environment Setup:**
+## **2. Chat Models:**
 
-## **3. Chat Models:**
+[If you want to learn more about langChain chat model with code example then click this link.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-Langchain/1_chat_models)
 
-## **4. Prompt Templates:**
+- `1_chat_model_basic.py:`
+- `2_chat_model_basic_conversation.py:`
+- `3_chat_model_alternatives.py:`
+- `4_chat_model_conversation_with_user.py:`
 
-## **5. Chains:**
+## **3. Prompt Templates:**
 
-## **6. Memory:**
+## **4. Chains:**
 
-## **7. RAG (Retrieval-Augmented Generation):**
+## **5. Memory:**
 
-## **8. Agents & Tools:**
+## **6. RAG (Retrieval-Augmented Generation):**
 
-## **9. LangChain Projects:**
+## **7. Agents & Tools:**
 
 [LangChain API Rederences](https://python.langchain.com/api_reference/core/runnables/langchain_core.runnables.base.RunnableSequence.html)
