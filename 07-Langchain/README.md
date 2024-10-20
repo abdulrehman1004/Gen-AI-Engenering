@@ -109,14 +109,27 @@ LangChain provides the foundation for creating rich, interactive, and dynamic ap
 
 [If you want to learn more about langChain chat model with code example then click this link.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-Langchain/1_chat_models)
 
-- `1_chat_model_basic.py:`
-- `2_chat_model_basic_conversation.py:`
-- `3_chat_model_alternatives.py:`
-- `4_chat_model_conversation_with_user.py:`
+- `1_chat_model_basic.py`
+- `2_chat_model_basic_conversation.py`
+- `3_chat_model_alternatives.py`
+- `4_chat_model_conversation_with_user.py`
 
 ## **3. Prompt Templates:**
 
+[If you want to learn more about langChain Prompt Template with code example then click this link.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-Langchain/2_prompt_templates)
+
+- `1_prompt_template_basic.py`
+- `2_prompt_template_with_chat_model.py`
+
 ## **4. Chains:**
+
+[If you want to learn more about langChain Chains or LangChain Expression Language (LCEL) with code example then click this link.](<https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-Langchain/3_chains%20(LCEL)>)
+
+- `1_chains_basics.py`
+- `2_chains_under_the_hood.py`
+- `3_chains_extended.py`
+- `4_chains_parallel.py`
+- `5_chains_branching.py`
 
 ## **5. Memory:**
 
