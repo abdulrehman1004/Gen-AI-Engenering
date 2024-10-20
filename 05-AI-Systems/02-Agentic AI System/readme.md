@@ -1,10 +1,8 @@
-# Learn All About AI Agents:
-
-## Introduction to AI Agents:
+# Introduction to Agentsic AI:
 
 **Agentic AI** refers to a type of artificial intelligence designed to act as an autonomous agent, capable of making decisions and performing tasks on its own, often in dynamic environments. These AI systems can plan, reason, adapt, and interact with the world to achieve specific goals, much like human agents who operate independently. They have a degree of autonomy, which means they can take actions based on their internal goals and perceptions of the environment, often with minimal human intervention.
 
-**OR**
+                                **OR**
 
 Agentic AI refers to **AI systems that act as “agents”**, meaning they can make decisions, perform tasks, and interact dynamically with the environment or users. These agents can act on behalf of users to accomplish specific goals without constant supervision.
 
@@ -20,7 +18,7 @@ Agentic AI refers to **AI systems that act as “agents”**, meaning they can m
 2.  **Reasoning**: They analyze and plan actions based on gathered information.
 3.  **Action**: They execute decisions and modify their environment.
 
-**OR**
+                                 **OR**
 
 - AI agents are tools that help users interact with large language models (LLMs) to make workflows more efficient.
 - They simplify complex models like GPT-4 and make it easier for people to use AI without needing deep technical knowledge.
