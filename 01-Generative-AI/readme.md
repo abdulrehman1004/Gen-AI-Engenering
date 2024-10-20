@@ -10,11 +10,11 @@ Generative AI relies on sophisticated [machine learning](https://www.ibm.com/to
 
 For the most part, generative AI operates in three phases:
 
-- **Training**, to create a foundation model that can serve as the basis of multiple gen AI applications.
-- **Tuning**, to tailor the foundation model to a specific gen AI application.
-- **Generation**, **evaluation and retuning**, to assess the gen AI application's output and continually improve its quality and accuracy.
+1. **Training**, to create a foundation model that can serve as the basis of multiple gen AI applications.
+2. **Tuning**, to tailor the foundation model to a specific gen AI application.
+3. **Generation**, **evaluation and retuning**, to assess the gen AI application's output and continually improve its quality and accuracy.
 
-## **Training a Foundational Model:**
+## **1. Training a Foundational Model:**
 
 Generative AI starts with something called a **foundation model**—a deep learning model that can be used for many types of content creation. Right now, the most common type of foundation model is the **Large Language Model (LLM)**, which is used for generating text. but there are also foundation models for image generation, video generation, and sound and music generation—as well as multimodal foundation models that can support several kinds content generation.
 
@@ -33,7 +33,7 @@ In short, foundation models are like the brain behind generative AI, but buildin
 
 ---
 
-## Tuning a Foundation Model**:**
+## **2. Tuning a Foundation Model:**
 
 Think of a **foundation model** as a generalist—it knows a lot about different things, but it's not perfect at specific tasks. To make it better at certain tasks, like answering customer service questions or writing code, the model needs some adjustments. This process is called **tuning**.
 
@@ -64,7 +64,7 @@ Both of these methods help make the model more useful for specific tasks!
 
 ---
 
-## **Generation, evaluation, more tuning:**
+## **3. Generation, evaluation, more tuning:**
 
 Generative AI models are always being assessed and improved:
 
