@@ -1,4 +1,4 @@
-# All About Compound AI System:
+# Intro to Compound AI System:
 
 - A **Compound AI System (CAS)** is an architecture that integrates various specialized components, which can be different types of AI models or other tools, to perform tasks. This combination allows the system to:
   - Adapt to various tasks.
@@ -231,7 +231,7 @@ Both approaches have their unique advantages and are suitable for different use 
 
 ## Resources
 
-| Name               | RAG                                                                                                                                                              |
+| Name               | Links                                                                                                                                                            |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Panaversity Github | [compound_ai_systerms](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/tree/main/00_generative_ai_for_beginners/03_compound_ai_systerms) |
 | Article            | [A Silent Evolution in AI](https://www.unite.ai/a-silent-evolution-in-ai-the-rise-of-compound-ai-systems-beyond-traditional-ai-models/)                          |
