@@ -20,7 +20,7 @@
 2.  **Reasoning**: They analyze and plan actions based on gathered information.
 3.  **Action**: They execute decisions and modify their environment.
 
-                                                       **OR**
+**OR**
 
 Agentic AI refers to **AI systems that act as “agents”**, meaning they can make decisions, perform tasks, and interact dynamically with the environment or users. These agents can act on behalf of users to accomplish specific goals without constant supervision.
 
