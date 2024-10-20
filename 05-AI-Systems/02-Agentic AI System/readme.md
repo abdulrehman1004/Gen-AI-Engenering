@@ -46,8 +46,6 @@ AI agents work by following a continuous loop of these key steps:
 
     - Many AI agents use machine learning, particularly reinforcement learning, to improve their decision-making over time. They learn from previous experiences (e.g., successes or failures) and refine their future actions.
 
-                                                       **OR:**
-
 ## **Key Components of AI Agents**:
 
 - **Environment**: The external world or system where the agent operates (e.g., a chatbot environment is a conversation; for a robot, it’s the physical world).
