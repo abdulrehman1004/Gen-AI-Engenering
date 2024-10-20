@@ -21,7 +21,7 @@ Generative AI starts with something called a **foundation model**—a deep learn
 ### How a Foundation Model is Made:
 
 1. **Training on Massive Data**: To create a foundation model, developers train a deep learning algorithm using huge amounts of data. This data can come from the internet or other large sources, and it doesn’t need to be organized or labeled.
-2. **Learning Patterns**: The algorithm tries to solve "fill in the blank" exercises. For example, it predicts the next word in a sentence or the next piece of an image. It repeats this millions of times, adjusting itself to get closer to the correct answer.
+2. **Learning Patterns**: The algorithm tries to solve **fill in the blank** exercises. For example, it predicts the next word in a sentence or the next piece of an image. It repeats this millions of times, adjusting itself to get closer to the correct answer.
 3. **Neural Network Creation**: Through this process, the model learns patterns, relationships, and how things are connected in the data. The result is a neural network—a system that can then create new content based on input it gets, like a prompt.
 
 ### Challenges:
