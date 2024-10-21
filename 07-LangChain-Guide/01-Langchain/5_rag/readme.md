@@ -67,8 +67,8 @@ RAG essentially enhances the reliability of answers by ensuring that they are gr
 ## **Retrieval Augmented Generation Pipline**:
 
 <div style="display: flex; width: 100%; gap:6px">
-  <img src="image.png" alt="Image 1" style="width: 50%;" />
-  <img src="image-1.png" alt="Image 2" style="width: 50%;" />
+  <img src="image.png" alt="Image 1" style="width: 49%;" />
+  <img src="image-1.png" alt="Image 2" style="width: 49%;" />
 </div>
 
 ## **1. Ingestion: Building the Knowledge Base**
