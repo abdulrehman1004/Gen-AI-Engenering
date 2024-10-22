@@ -6,41 +6,51 @@ import requests
 # =================================================================== Text Splitter  ===================================================================
 # ======================== CharacterTextSplitter ========================
 
+# Define the text to be split into chunks
 text = "AI is one of the most exciting advancements in recent years."
 
-chunk_size = 50
-chunk_overlap = 20
+# Set the chunk size and overlap
+chunk_size = 50  # Maximum size of each chunk
+chunk_overlap = 20  # Number of overlapping characters between consecutive chunks
 
+# ============================== CharacterTextSplitter ==============================
+
+# Initialize CharacterTextSplitter with chunk size, overlap, and separator
 character_splitter = CharacterTextSplitter(
     chunk_size=chunk_size,
     chunk_overlap=chunk_overlap,
-    # separator="",
-    separator="\n\n",
+    separator="\n\n",  # Splitting the text based on double newlines
+    # separator="": Optional - If you want no separator (i.e., split anywhere), but here we use:
 )
 
+# Split the text into chunks using the specified settings
 c_chunks = character_splitter.split_text(text)
+
+# Print the chunks and their count
 print("========== CharacterTextSplitter ==========")
-print(c_chunks)
-print(len(c_chunks))
+print(c_chunks)  # Outputs the list of chunks generated
+print(len(c_chunks))  # Outputs the number of chunks
 
 # ======================== RecursiveCharacterTextSplitter ========================
-text = "AI is one of the most exciting advancements in recent years."
 
-chunk_size = 50
-chunk_overlap = 20
-
+# Initialize RecursiveCharacterTextSplitter with a list of separators
 recursive_splitter = RecursiveCharacterTextSplitter(
     chunk_size=chunk_size,
     chunk_overlap=chunk_overlap,
-    separators=["\n\n", "\n", " ", ".", ",", "",]
+    separators=["\n\n", "\n", " ", ".", ",", ""]
+    # The model will try to split the text at the largest separator first, then move down the list
 )
 
+# Split the text recursively using the defined separators
 r_chunks = recursive_splitter.split_text(text)
+
+# Print the chunks and their count
 print("========== RecursiveCharacterTextSplitter ==========")
-print(r_chunks)
-print(len(r_chunks))
+print(r_chunks)  # Outputs the list of chunks generated
+print(len(r_chunks))  # Outputs the number of chunks
 
 # ================================================ Json Splitter  ================================================
+
 # This is a large nested json object and will be loaded as a python dict
 json_data = requests.get("https://api.smith.langchain.com/openapi.json").json()
 
@@ -125,6 +135,7 @@ print(c_l_chunks)
 
 # ==================== HTMLHeaderTextSplitter ====================
 
+# Define an HTML string to split based on headers
 html_string = """
 <!DOCTYPE html>
 <html>
@@ -151,33 +162,43 @@ html_string = """
 </html>
 """
 
+# Specify the headers to split on (h1, h2, h3)
 headers_to_split_on = [
-    ("h1", "Header 1"),
-    ("h2", "Header 2"),
-    ("h3", "Header 3"),
+    ("h1", "Header 1"),  # Split on <h1> tags, and label as "Header 1"
+    ("h2", "Header 2"),  # Split on <h2> tags, and label as "Header 2"
+    ("h3", "Header 3"),  # Split on <h3> tags, and label as "Header 3"
 ]
 
+# Initialize the HTMLHeaderTextSplitter with the specified headers
 html_splitter = HTMLHeaderTextSplitter(headers_to_split_on)
 
+# Split the HTML string based on the header tags
 header_splits = html_splitter.split_text(html_string)
 
+# Print the split results
 print("========== HTMLHeaderTextSplitter ==========")
+print(header_splits)  # Output all the header splits
+print(header_splits[0].page_content)  # Content of the first split section
+print(header_splits[0].metadata)  # Metadata of the first split section
 
-print(header_splits)
-print(header_splits[0].page_content)
-print(header_splits[0].metadata)
-
-print(header_splits[1].page_content)
-print(header_splits[1].metadata)
+print(header_splits[1].page_content)  # Content of the second split section
+print(header_splits[1].metadata)  # Metadata of the second split section
+# Accessing specific header metadata
 print(header_splits[1].metadata["Header 1"])
 
+# Print metadata for a deeper split section
 print(header_splits[4].metadata)
+# Access "Header 1" metadata in this split
 print(header_splits[4].metadata["Header 1"])
+# Access "Header 2" metadata in this split
 print(header_splits[4].metadata["Header 2"])
+# Access "Header 3" metadata in this split
 print(header_splits[4].metadata["Header 3"])
-print(header_splits[4].page_content)
+print(header_splits[4].page_content)  # Content of the split section
 
-# ==================== HTMLHeaderTextSplitter ====================
+# ==================== HTMLSectionSplitter ====================
+
+# Define the same HTML string as above for splitting
 html_string = """
 <!DOCTYPE html>
 <html>
@@ -204,27 +225,27 @@ html_string = """
 </html>
 """
 
-headers_to_split_on = [
-    ("h1", "Header 1"),
-    ("h2", "Header 2"),
-    ("h3", "Header 3"),
-]
-
+# Initialize HTMLSectionSplitter with the same headers
 html_splitter = HTMLSectionSplitter(headers_to_split_on)
+
+# Split the HTML string into sections based on headers
 html_header_splits = html_splitter.split_text(html_string)
 
+# Print the split results
 print("========== HTMLSectionSplitter ==========")
-print(html_header_splits)
+print(html_header_splits)  # Output all the section splits
 
-print(html_header_splits[0].page_content)
-print(html_header_splits[0].metadata)
+print(html_header_splits[0].page_content)  # Content of the first section
+print(html_header_splits[0].metadata)  # Metadata of the first section
 
-print(html_header_splits[1].page_content)
-print(html_header_splits[1].metadata)
+print(html_header_splits[1].page_content)  # Content of the second section
+print(html_header_splits[1].metadata)  # Metadata of the second section
+# Access specific "Header 2" metadata
 print(html_header_splits[1].metadata["Header 2"])
 
 # ================================================ Markdown Splitter  ================================================
-# Sample markdown text
+
+# Define a sample markdown text to split based on headers
 markdown_text = """
 # Introduction
 This is the introduction to the document.
@@ -245,23 +266,29 @@ AI is one of the most exciting advancements in recent years.
 This is the conclusion of the document.
 """
 
+# Specify the markdown headers to split on
 headers_to_split_on = [
-    ("#", "Header 1"),
-    ("##", "Header 2"),
-    ("###", "Header 3"),
+    ("#", "Header 1"),   # Split on top-level headers ("#")
+    ("##", "Header 2"),  # Split on second-level headers ("##")
+    ("###", "Header 3"),  # Split on third-level headers ("###")
 ]
 
+# Initialize the MarkdownHeaderTextSplitter with the specified headers
 markdown_splitter = MarkdownHeaderTextSplitter(headers_to_split_on)
+
+# Split the markdown text based on headers
 md_header_splits = markdown_splitter.split_text(markdown_text)
 
+# Print the split results
 print("========== MarkdownHeaderTextSplitter ==========")
-print(md_header_splits)
+print(md_header_splits)  # Output all the header splits
 
-print(md_header_splits[0].metadata)
-print(md_header_splits[0].page_content)
+print(md_header_splits[0].metadata)  # Metadata of the first section
+print(md_header_splits[0].page_content)  # Content of the first section
 
+# Print metadata and content for deeper sections
 print(md_header_splits[4].metadata)
-print(md_header_splits[4].metadata["Header 1"])
-print(md_header_splits[4].metadata["Header 2"])
-print(md_header_splits[4].metadata["Header 3"])
-print(md_header_splits[4].page_content)
+print(md_header_splits[4].metadata["Header 1"])  # Access "Header 1" metadata
+print(md_header_splits[4].metadata["Header 2"])  # Access "Header 2" metadata
+print(md_header_splits[4].metadata["Header 3"])  # Access "Header 3" metadata
+print(md_header_splits[4].page_content)  # Content of the split section
