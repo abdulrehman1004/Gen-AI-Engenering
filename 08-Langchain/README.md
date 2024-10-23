@@ -107,7 +107,7 @@ LangChain provides the foundation for creating rich, interactive, and dynamic ap
 
 ## **2. Chat Models:**
 
-[If you want to learn more about langChain chat model with code example then click me.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/1_chat_models)
+If you want to learn more about langChain chat model with code example then click me. [Click Here]()
 
 - `1_chat_model_basic.py`
 - `2_chat_model_basic_conversation.py`
@@ -116,14 +116,14 @@ LangChain provides the foundation for creating rich, interactive, and dynamic ap
 
 ## **3. Prompt Templates:**
 
-[If you want to learn more about langChain Prompt Template with code example then click me.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/2_prompt_templates)
+If you want to learn more about langChain Prompt Template with code example then click me. [Click Here]()
 
 - `1_prompt_template_basic.py`
 - `2_prompt_template_with_chat_model.py`
 
 ## **4. Chains:**
 
-[If you want to learn more about langChain Chains or LangChain Expression Language (LCEL) with code example then click me.](<https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/3_chains%20(LCEL)>)
+If you want to learn more about langChain Chains or LangChain Expression Language (LCEL) with code example then click me. [Click Here]()
 
 - `1_chains_basics.py`
 - `2_chains_under_the_hood.py`
@@ -133,7 +133,7 @@ LangChain provides the foundation for creating rich, interactive, and dynamic ap
 
 ## **5. Memory:**
 
-[If you want to learn more about langChain memory with code example then click me.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/4_memory)
+If you want to learn more about langChain memory with code example. [Click Here]()
 
 - `1_ConversationBufferMemory.py`
 - `2_ConversationBufferWindowMemory.py`
@@ -141,11 +141,15 @@ LangChain provides the foundation for creating rich, interactive, and dynamic ap
 - `4_ConversationSummaryMemory.py`
 
 ## **6. RAG (Retrieval-Augmented Generation):**
+If you want to learn more about Retrieval-Augmented Generation with code example then click me. [Click Here]()
+### 
+- `1_document_loaders.`
+- `2_splitter.`
+- `3_embedding.`
+- `4_vecor_store.`
 
-[If you want to learn more about Retrieval-Augmented Generation with code example then click me.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/5_rag)
 
 ## **7. Agents & Tools:**
 
-[If you want to learn more about Agents & Tools with code example then click me.](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/07-LangChain-Guide/01-Langchain/6_agents_and_tools)
+If you want to learn more about Agents & Tools with code example then click me. [Click Here]()
 
-[LangChain API Rederences](https://python.langchain.com/api_reference/core/runnables/langchain_core.runnables.base.RunnableSequence.html)
