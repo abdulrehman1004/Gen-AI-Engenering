@@ -141,15 +141,30 @@ If you want to learn more about langChain memory with code example. [Click Here]
 - `4_ConversationSummaryMemory.py`
 
 ## **6. RAG (Retrieval-Augmented Generation):**
+
 If you want to learn more about Retrieval-Augmented Generation with code example then click me. [Click Here]()
-### 
+
+### **Step 01: Ingestion: Building the Knowledge Base**
+
 - `1_document_loaders.`
 - `2_splitter.`
 - `3_embedding.`
 - `4_vecor_store.`
 
+### **Step 02: Retrieval: Extracting Relevant Information**
+
+- `1_document_loaders.`
+- `2_splitter.`
+- `3_embedding.`
+- `4_vecor_store.`
+
+### **Step 03: Synthesis: Generating the Final Answer**
+
+- `1_document_loaders.`
+- `2_splitter.`
+- `3_embedding.`
+- `4_vecor_store.`
 
 ## **7. Agents & Tools:**
 
 If you want to learn more about Agents & Tools with code example then click me. [Click Here]()
-
