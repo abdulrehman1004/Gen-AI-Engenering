@@ -107,7 +107,7 @@ LangChain provides the foundation for creating rich, interactive, and dynamic ap
 
 ## **2. Chat Models:**
 
-If you want to learn more about langChain chat model with code example then click me. [Click Here]()
+If you want to learn more about langChain chat model with code example then click me. [Click Here](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/08-Langchain/1_chat_models)
 
 - `1_chat_model_basic.py`
 - `2_chat_model_basic_conversation.py`
@@ -116,14 +116,14 @@ If you want to learn more about langChain chat model with code example then clic
 
 ## **3. Prompt Templates:**
 
-If you want to learn more about langChain Prompt Template with code example then click me. [Click Here]()
+If you want to learn more about langChain Prompt Template with code example then click me. [Click Here](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/08-Langchain/2_prompt_templates)
 
 - `1_prompt_template_basic.py`
 - `2_prompt_template_with_chat_model.py`
 
 ## **4. Chains:**
 
-If you want to learn more about langChain Chains or LangChain Expression Language (LCEL) with code example then click me. [Click Here]()
+If you want to learn more about langChain Chains or LangChain Expression Language (LCEL) with code example then click me. [Click Here](<https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/08-Langchain/3_chains%20(LCEL)>)
 
 - `1_chains_basics.py`
 - `2_chains_under_the_hood.py`
@@ -133,7 +133,7 @@ If you want to learn more about langChain Chains or LangChain Expression Languag
 
 ## **5. Memory:**
 
-If you want to learn more about langChain memory with code example. [Click Here]()
+If you want to learn more about langChain memory with code example. [Click Here](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/08-Langchain/4_memory)
 
 - `1_ConversationBufferMemory.py`
 - `2_ConversationBufferWindowMemory.py`
@@ -142,7 +142,7 @@ If you want to learn more about langChain memory with code example. [Click Here]
 
 ## **6. RAG (Retrieval-Augmented Generation):**
 
-If you want to learn more about Retrieval-Augmented Generation with code example then click me. [Click Here]()
+If you want to learn more about Retrieval-Augmented Generation with code example then click me. [Click Here](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/08-Langchain/5_rag)
 
 ### **Step 01: Ingestion: Building the Knowledge Base**
 
@@ -167,4 +167,4 @@ If you want to learn more about Retrieval-Augmented Generation with code example
 
 ## **7. Agents & Tools:**
 
-If you want to learn more about Agents & Tools with code example then click me. [Click Here]()
+If you want to learn more about Agents & Tools with code example then click me. [Click Here](https://github.com/abdulrehman1004/Gen-AI-Engenering/tree/main/08-Langchain/6_agents_and_tools)
