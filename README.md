@@ -59,10 +59,6 @@ This section provides insights into **LangSmith**, a tool or framework designed 
 
 **Knowledge Graphs** are essential for representing complex relationships and knowledge in structured formats. This folder includes resources on building, querying, and integrating knowledge graphs with AI systems, enhancing the understanding and interpretability of AI models.
 
-Here’s the content for **12. Graph Databases** and **13. The GQL Standard** following the same format:
-
----
-
 ### 12. Graph Databases
 
 The **Graph Databases** section explores powerful database systems that store data in graph structures. Graph databases like **Neo4j** provide an efficient way to model and query relationships between data points, making them ideal for AI applications that rely on interconnected information. This folder includes tutorials on setting up graph databases, querying with **Cypher**, and integrating them into AI pipelines.
@@ -70,8 +66,6 @@ The **Graph Databases** section explores powerful database systems that store da
 ### 13. The GQL Standard
 
 The **GQL Standard** introduces the emerging **Graph Query Language (GQL)**, which aims to become the international standard for querying graph data. This section covers the syntax, semantics, and use cases of GQL, helping developers write efficient graph queries. Resources in this folder will assist you in leveraging GQL for advanced data querying and AI applications.
-
----
 
 ## Getting Started
 
